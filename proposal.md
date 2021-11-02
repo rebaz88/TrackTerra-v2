@@ -3,7 +3,7 @@ As you might already know TrackTerra is a tax and reporting application. It is b
 
 ## PROPOSAL
 This proposal is to further develop the application in order to
-- Add support for more protocols
+- Add support for dynamically adding new protocols
 - Add support for different taxing software when exporting the data
 - Add support for REST and GraphQL to query the applcation(Limited)
 
