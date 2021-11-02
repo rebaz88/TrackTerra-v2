@@ -1,49 +1,77 @@
-## PROJECT INTRODUCTION
-As you might already know TrackTerra is a tax and reporting application. It is build to ease the process of transforming the blocks/transactions data into a single transaction form similar to traditional banking systems. It currently supports native send/recieve, anchor, mirror(partially), pylon(partialy) and terraswap protocols. 
+# Grant Proposal: Funding for TrackTerra
 
-## PROPOSAL
-This proposal is to further develop the application in order to
-- Add support for dynamically adding new protocols
-- Add support for different taxing software when exporting the data
-- Add support for REST and GraphQL to query the applcation(Limited)
+- **Project Name:** TrackTerra
+- **Team Name:** TrackTerra
+- **Payment Address:** ————
 
-The major activities include redesiging the core functionality of the system which is the indexer to support the addition of new protocols dynamically.
+## Project Overview
 
-## DEVELOPMENT ROADMAP
-* ### **Add support for dynamically adding new protocols**
-    * Est. Duration: 40 days
-    * Funding: $22,400
-    * Procedure:
-        <ol>
-            <li>Create a scrapper to go through each protocols transactions and store them in a database for later use</li>
-            <li>Classify the transactions Manually/Automatically and add support for each transaction type in the current version</li>
-            <li>Write test for each transaction type for each protocol.</li>
-            <li>Develop a generic classifier that is able to classify all types of the transaction for each protocol.</li>
-            <li>Write test for the generic claissifier.</li>
-            <li>Add parser for some of the transactions that are not parsed by the current parser.</li>
-            <li>Write test for each parser.</li>
-            <li>Develop a generic parser that is able to parse all the transaction types for each protocol.</li>
-            <li>Write test for the generic parser.</li>
-            <li>Add ability to add rules for each protocol/transaction type through ui.</li>
-            <li>Write unit and e2e test for adding rules through ui </li>
-            <li>Protect ui to allow only authenticated users to add protocols/transaction types.</li>
-        </ol>
-    * Deliverables:
-        * Generic Classifier & Parser
-        * Add ui for managing protocols & transaction types
-        * Minimal Support: Anchor, Mirror, Terraswap, Nexus, Valkyre, Mars, Astroport, Loop, Spectrum, Apollo
-* ### **Add support for tax software(Max: 3)**
-    * Est. Duration: 5 days
-    * Funding: $3,200
-    * Deliverables:
-        * Users will be able to filter the transaction by date, transaction type.
-        * Users will be able to export the data to three supported third-pary apps based on their filter.
-* ### **Add support for REST and GraphQL**
-    * Est. Duration: 5 days
-    * Funding: $3,200
-    * Deliverable:
-        * This will allow interacting with the application for third-party apps and query based on
-            * Wallet address
-            * Transaction type
-            * Transaction date
+As you might already know TrackTerra is a tax and reporting application. It is build to ease the process of transforming the blocks/transactions data into a single transaction form similar to traditional banking systems. It currently supports native send/recieve, anchor, mirror(partially), pylon(partialy) and terraswap protocols.
 
+### Overview
+
+- TrackTerra – a tax focused blockchain explorer for Terra
+- TrackTerra parsers transactions from terra wallets in to a format that can easily be imported in to popular crypto tax software.
+- Removes the complexity and barrier to entry around reporting requirements for transactions in the terra ecosystem
+
+### Project Details
+
+The app uses nodejs and has it’s own database backend where it stored parsed transactions. Our MVP is mostly functional and can be demoed at beta.trackterra.org. Active development can be viewed [here](https://github.com/rebaz88/TrackTerra-v2/)
+
+### Ecosystem Fit
+
+- The target end users are users of the terra ecosystem that have any sort of tax reporting requirement, and crypto tax softwares that will either adopt our codebase or use our APIs. Crypto tax reporting is a major burden for crypto investors and this solution aims to solve this for the terra ecosystem.
+- There is one competitor to trackterra which is stake.tax, however this solution is nearly unusable and doesn’t have support for many terra transactions. This solution is also not opensource. TrackTerra aims to build a solution that can easily be extended with little development effort that is also fully opensource.
+
+## Team
+
+### Team members
+
+- Papi - Project Manager
+- Rebaz Saleh - Software Developer
+
+### Contact
+
+- **Contact Name:** Papi
+- **Contact Email:** trackterraorg@gmail.com
+- **Website:** beta.trackterra.org
+
+### Legal Structure
+
+- N/A
+
+### Team Code Repos
+
+- https://github.com/Papi94/TrackTerra-v2
+- [https://github.com/Papi94](https://github.com/Papi94)
+- [https://github.com/rebaz88](https://github.com/rebaz88)
+
+### Overview
+
+- **Total Estimated Duration:** 50 working days
+- **Full-Time Equivalent (FTE):** 1 FTE
+- **Total Costs:** 28,800 USD
+
+### Milestone 1  — **Add support for dynamically adding new protocols**
+
+- **Estimated duration:** 40 working days
+- **FTE:** 1
+- **Costs:** 22,400 USD
+
+[Untitled](https://www.notion.so/3ccf635abbf94cfba693b2f394edb213)
+
+### **Add support for tax software**
+
+- **Estimated Duration:** 5 working days
+- **FTE:** 1
+- **Costs:** 3,200 USD
+
+[Untitled](https://www.notion.so/a8bd7f3fca884d9083116bede66d073f)
+
+### **Add support for REST and GraphQL**
+
+- **Estimated Duration:** 5 working days
+- **FTE:** 1
+- **Costs:** 3,200 USD
+
+[Untitled](https://www.notion.so/f04956eec2244d6a88f6b0c4c7a98ba0)
