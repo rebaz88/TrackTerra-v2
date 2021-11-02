@@ -58,20 +58,33 @@ The app uses nodejs and has it’s own database backend where it stored parsed t
 - **FTE:** 1
 - **Costs:** 22,400 USD
 
-[Untitled](https://www.notion.so/3ccf635abbf94cfba693b2f394edb213)
+| Number   | Deliverable | Specification      |
+| :---------- | :------------ | :------------|
+| 1           | Generic Classifier & Parser       |   - Create a scrapper to go through each protocols transactions and store them in a database for later use <br> - Classify the transactions Manually/Automatically and add support for each transaction type in the current version <br> - Write test for each transaction type for each protocol. <br> - Develop a generic classifier that is able to classify all types of the transaction for each protocol. <br> - Write test for the generic classifier. <br> - Add parser for some of the transactions that are not parsed by the current parser. <br> - Write test for each parser. <br> - Develop a generic parser that is able to parse all the transaction types for each protocol. <br> - Write test for the generic parser.|
+| 2           | Add ui for managing protocols & transaction types       | - Add ability to add rules for each protocol/transaction type through ui. <br> Write unit and e2e test for adding rules through ui <br> Protect ui to allow only authenticated users to add protocols/transaction types.       |
+| 3           | Supporting protocols       | Minimal Support: Anchor, Mirror, Terraswap, Nexus, Valkyre, Mars, Astroport, Loop, Spectrum, Apollo|
 
-### **Add support for tax software**
+<br>
 
-- **Estimated Duration:** 5 working days
-- **FTE:** 1
-- **Costs:** 3,200 USD
-
-[Untitled](https://www.notion.so/a8bd7f3fca884d9083116bede66d073f)
-
-### **Add support for REST and GraphQL**
+### Milestone 2  — **Add support for tax software**
 
 - **Estimated Duration:** 5 working days
 - **FTE:** 1
 - **Costs:** 3,200 USD
 
-[Untitled](https://www.notion.so/f04956eec2244d6a88f6b0c4c7a98ba0)
+| Number   | Deliverable | Specification      |
+| :---------- | :------------ | :------------|
+| 1           | Export data to a format readable by Koinly , Cointracker       |  - Users will be able to filter the transaction by date, transaction type. <br> - Users will be able to export the data to three supported third-pary apps based on their filter.|
+
+<br>
+<br>
+
+### Milestone 3 — **Add support for REST and GraphQL**
+
+- **Estimated Duration:** 5 working days
+- **FTE:** 1
+- **Costs:** 3,200 USD
+
+| Number   | Deliverable | Specification      |
+| :---------- | :------------ | :------------|
+| 1           | This will allow interacting with the application for third-party apps       |  Retrieve and filter data by  Wallet address, Transaction type, Transaction date  |
