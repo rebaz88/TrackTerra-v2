@@ -35,7 +35,7 @@ The major activities include redesiging the core functionality of the system whi
     * Est. Duration: 5 days
     * Funding: $3,200
     * Deliverables:
-        * Users will be able to filter the transaction by Date, Transaction Type.
+        * Users will be able to filter the transaction by date, transaction type.
         * Users will be able to export the data to three supported third-pary apps based on their filter.
 * ### **Add support for REST and GraphQL**
     * Est. Duration: 5 days
