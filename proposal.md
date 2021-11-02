@@ -31,7 +31,7 @@ The major activities include redesiging the core functionality of the system whi
     * Deliverables:
         * Generic Classifier & Parser
         * Add ui for managing protocols & transaction types
-        * Minimal Support: Anchor, Mirror, Terraswap, Nexus, Valkyre, Mars, Astroport
+        * Minimal Support: Anchor, Mirror, Terraswap, Nexus, Valkyre, Mars, Astroport, Loop
 * ### **Add support for tax software(Max: 3)**
     * Est. Duration: 5 days
     * Funding: $3,200
