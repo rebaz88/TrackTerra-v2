@@ -2,7 +2,7 @@
 
 - **Project Name:** TrackTerra
 - **Team Name:** TrackTerra
-- **Payment Address:** ————
+- **Payment Address:** terra17g2kuc9xrcdmhh660mwcus7fxkcefue7zlsa6p
 
 ## Project Overview
 
