@@ -77,7 +77,6 @@ The app uses nodejs and has it’s own database backend where it stored parsed t
 | 1           | Export data to a format readable by Koinly , Cointracker       |  - Users will be able to filter the transaction by date, transaction type. <br> - Users will be able to export the data to three supported third-pary apps based on their filter.|
 
 <br>
-<br>
 
 ### Milestone 3 — **Add support for REST and GraphQL**
 
