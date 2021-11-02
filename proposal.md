@@ -1,5 +1,5 @@
 ## PROJECT INTRODUCTION
-As you might already know TrackTerra is a tax and reporting application. It is build to ease the process of transforming the blocks/transactions data into a single transaction form similar to traditional banking systems. It currently supports native send/recieve, anchor, mirror(partially), pylon(partialy) protocols. 
+As you might already know TrackTerra is a tax and reporting application. It is build to ease the process of transforming the blocks/transactions data into a single transaction form similar to traditional banking systems. It currently supports native send/recieve, anchor, mirror(partially), pylon(partialy) and terraswap protocols. 
 
 ## PROPOSAL
 This proposal is to further develop the application in order to
