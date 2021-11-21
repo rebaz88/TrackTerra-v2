@@ -50,7 +50,7 @@ The app uses nodejs and has it’s own database backend where it stored parsed t
 
 - **Total Estimated Duration:** 50 working days
 - **Full-Time Equivalent (FTE):** 1 FTE
-- **Total Costs:** 28,800 USD
+- **Total Costs:** 38,800 USD
 
 ### Milestone 1  — **Add support for dynamically adding new protocols**
 
@@ -87,3 +87,20 @@ The app uses nodejs and has it’s own database backend where it stored parsed t
 | Number   | Deliverable | Specification      |
 | :---------- | :------------ | :------------|
 | 1           | This will allow interacting with the application for third-party apps       |  Retrieve and filter data by  Wallet address, Transaction type, Transaction date  |
+
+<br>
+
+### Maintenance and Upkeep
+
+- **Duration:** 1 Year
+- **FTE:** 1
+- **Costs:** 10,000 USD
+
+| Number   | Deliverable | Specification      |
+| :---------- | :------------ | :------------|
+| 1           | Maintain the application       |  Bug fixes and new small features that would improve the overal usability/performance of the application  |
+| 2           | Hosting the application      |  Cover the costs associated with hosting the application. (excluding FCD)  |
+<br>
+
+### NFT Marketplace support
+Adding support for NFT marketplace is among our stretch goals. If we did not get to this goal, we will tap in to upkeep fund to cover those development costs
